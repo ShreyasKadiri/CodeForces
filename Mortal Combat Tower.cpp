@@ -81,12 +81,9 @@
         cout.tie(0);
         cout<<fixed;
         cout<<setprecision(10);
-//        freopen("timber_input.txt", "r", stdin);
-//        freopen("timber_output.txt", "w", stdout);
         int t=1;
         cin>>t;
         for(int i=1;i<=t;i++){
-//            cout<<"Case #"<<i<<": ";
             solve();
         }
         return 0;
