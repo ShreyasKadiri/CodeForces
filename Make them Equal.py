@@ -8,7 +8,6 @@ for j in range(t):
     else:
         a = sum(l)//n
         print(3*n-3)
-        
         for i in range(1,n):
             print(1,i+1,(-l[i])%(i+1),sep=" ")
             print(i+1,1,(l[i]+i)//(i+1),sep=" ")
